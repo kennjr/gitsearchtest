@@ -1,0 +1,51 @@
+.container{
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+    margin: 2.5vh 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.user_info_section{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fav_grid_section{
+    width: 60%;
+    height: 100%;
+    margin-right: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.crud_app_info > img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.card {
+    /* background-color: black; */
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    border-width: 1.5px;
+    border-color: #dcdcdc;
+    border-style: solid;
+    padding: 2vh 2vw;
+    margin: 2vh 0;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    margin: 0px auto;
+}
